@@ -12,8 +12,8 @@ body {
 
 .profile-card {
   background-color: hsl(0, 0%, 12%);
-  width: 25rem;
-  height: 38rem;
+  width: 24rem;
+  height: 36rem;
   font-family: Inter;
   border-radius: 14px;
   display: flex;
@@ -39,12 +39,13 @@ body {
 .profile-card h3 {
   color: hsl(75, 94%, 57%);
   font-weight: 600;
+  margin: 0.7rem 0;
 }
 
-.profile-card .user-bio {
-  color: hsl(0, 0%, 100%);
-  font-weight: 400;
-  margin-bottom: 1.5rem;
+.profile-card p {
+  color: hsl(0, 0%, 70%);
+  font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 .btns {
@@ -52,7 +53,7 @@ body {
   flex-direction: column;
 }
 
-.btns p {
+.btns button {
   width: 22rem;
   height: 3rem;
   display: flex;
@@ -64,8 +65,23 @@ body {
   color: white;
   font-family: Inter;
   font-size: 14px;
-  font-weight: 700;
-  margin-top: 0.4rem;
+  font-weight: bolder !important;
+  margin-bottom: 1rem;
+  letter-spacing: 0.02rem;
+}
+
+.btns button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+  cursor: pointer;
+  
+}
+
+@media (max-width: 375px) {
+  .profile-card {
+    width: 22rem;
+    height: 35rem;
+  }
 }
 
 /* .attribution { 
