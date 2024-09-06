@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.profile-card {
+  background-color: hsl(0, 0%, 12%);
+  width: 25rem;
+  height: 38rem;
+  font-family: Inter;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 3rem 2rem;
+}
+
+.profile-card img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100px;
+}
+
+.profile-card h1 {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  margin-bottom: 0;
+}
+
+.profile-card h3 {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+
+.profile-card .user-bio {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.btns p {
+  width: 22rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: solid 1px hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 0.4rem;
+}
+
+/* .attribution { 
+  font-size: 11px; 
+  text-align: center;
+  margin-top: 5rem; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+} */
