@@ -79,9 +79,20 @@ body {
 
 @media (max-width: 375px) {
   .profile-card {
-    width: 22rem;
-    height: 35rem;
+    width: 20rem;
+    height: 36rem;
+    padding: 2rem 1.2rem;
   }
+
+  .profile-card h3 {
+    font-weight: 600;
+    font-size: medium;
+  }
+
+.btns button {
+  width: 20rem;
+  height: 3rem;
+}
 }
 
 /* .attribution { 
