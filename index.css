@@ -10,7 +10,7 @@ body {
   background-color: hsl(0, 0%, 8%);
 }
 
-.profile-card {
+main {
   background-color: hsl(0, 0%, 12%);
   width: 24rem;
   height: 36rem;
@@ -23,37 +23,33 @@ body {
   padding: 3rem 2rem;
 }
 
-.profile-card img {
+img {
   width: 6rem;
   height: 6rem;
   border-radius: 100px;
 }
 
-.profile-card h1 {
+h2 {
   color: white;
   font-weight: 600;
   letter-spacing: 0.05rem;
   margin-bottom: 0;
 }
 
-.profile-card h3 {
+h3 {
   color: hsl(75, 94%, 57%);
   font-weight: 600;
   margin: 0.7rem 0;
 }
 
-.profile-card p {
+p {
   color: hsl(0, 0%, 70%);
   font-weight: 600;
   margin-bottom: 2rem;
 }
 
-.btns {
-  display: flex;
-  flex-direction: column;
-}
 
-.btns button {
+button {
   width: 22rem;
   height: 3rem;
   display: flex;
@@ -70,7 +66,7 @@ body {
   letter-spacing: 0.02rem;
 }
 
-.btns button:hover {
+button:hover {
   background-color: hsl(75, 94%, 57%);
   color: black;
   cursor: pointer;
@@ -78,18 +74,18 @@ body {
 }
 
 @media (max-width: 375px) {
-  .profile-card {
+  main {
     width: 20rem;
     height: 36rem;
     padding: 2rem 1.2rem;
   }
 
-  .profile-card h3 {
+  h3 {
     font-weight: 600;
     font-size: medium;
   }
 
-.btns button {
+  button {
   width: 20rem;
   height: 3rem;
 }
